@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class Panagram {
 	
-		public static void allLetter(String str)
-		{
+		public static void allLetter(String str){
 			
 			str = str.toLowerCase();
 			boolean allLetterPresent = true;
@@ -17,12 +16,13 @@ public class Panagram {
 
 			if (allLetterPresent)
 				System.out.println("Given string is Pangram");
+
 			else
 				System.out.println("Given string is Pangram");
 		}
 
-		public static void main(String args[])
-		{
+		public static void main(String args[]){
+
 			Scanner sc= new Scanner(System.in);
 	    	System.out.println("Enter the input");
 	    	String str=sc.nextLine();
