@@ -1,0 +1,63 @@
+body {
+  background: #BDBDBD;
+}
+/* Basic Design */
+#calcContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    width: 60%;
+    height: auto;
+}
+/* 1st row */
+.result-clear {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Display */
+.display {
+    outline: none;
+    display:block;
+    border: 0;
+    padding-top: 1%;
+    padding-left: 5%;
+    width: 72%;
+    height: 60px;
+    font-size: 25px;
+    background: #ffffff;
+}
+/* Input button */
+.gridButtons {
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  background: #212121;
+  display: flex;
+  flex-wrap: wrap;
+}
+button  {
+  width: 25%;
+  height: auto;
+  padding: 4%;
+  border: 0px;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #212121;
+  border: 2px solid #212121;
+}
+button:focus {
+  outline: 0px;
+}
+button.clear {
+  background: #009688;
+  border: 2px solid #009688;
+  width: 25.5%;
+  font-size: 20px;
+}
