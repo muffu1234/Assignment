@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Calculator in HTML CSS & JavaScript</title>
+<link rel="stylesheet" href="customersurveyform.css" />
+</head>
+<body>
+    <h1>Customer Survey Form</h1>
+    <div class="ali">
+<form action="#" id="form" class="form">
+    
+    <p>
+        <label for="fristname">Frist Name:</label>
+        <input type="text" id="fristname" name="fn" required/>
+         <label for="LastName">Last Name:</label>
+        <input type="text" id="lastname" name="ln" required/>
+    </p>
+
+    <p>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required/>
+        <label for="country">Country</label>
+        <select name="continent" id="continent" required>
+            <option value="">Select Country</option>
+            <option value="America">America</option>
+            <option value="Dubai">Dubai</option>
+            <option value="India">India</option>
+            <option value="UK">Uk</option>
+            <option value="Finland">Finland</option>
+            <option value="Australia">Australia</option>
+            <option value="korea">korea</option>
+        </select>
+    </p>
+<p>
+    <label><Choose the gender</Select></label>
+    <input type="radio" id="genderM" name="gender" value="male" required/>
+    <label for="genderM">Male</label>
+</p>
+
+<p>
+<input type="radio" id="genderF" name="gender" value="female" />
+<label for="genderF">Female</label>
+</p>
+    <p>
+        <label for="profession">Profession</label>
+        <input type="text" id="profession" name="profession" required/>
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" /> 
+        <label for="mobile">Mobile Number</label>
+        <input type="mobile" id="mobile" name="mobile" required/>
+    </p>
+    
+    <p>
+        <button type="submit" id="submit">Submit</button>
+    </p>
+
+</form>
+</div>
+<div id="errorMessages"></div>
+</body>
+</html>
